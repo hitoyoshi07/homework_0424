@@ -1,0 +1,17 @@
+header {
+    height: 40px;
+    background-color: lightslategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.top-header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-wrap h1 {
+    font-size: 60px;
+    display: flex;
+}
