@@ -17,3 +17,28 @@ header {
     display: flex;
 }
 
+p {
+    text-align: center;
+    display: flex;
+}
+
+.contents-left p {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+
+.main-visual img {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.contents-right p {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 700px;
+}
