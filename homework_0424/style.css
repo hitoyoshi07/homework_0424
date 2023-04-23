@@ -12,6 +12,8 @@ header {
 }
 
 .title-wrap h1 {
-    font-size: 60px;
+    font-size: 55px;
+    text-align: center;
     display: flex;
 }
+
