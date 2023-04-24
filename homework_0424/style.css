@@ -15,26 +15,26 @@ header {
     font-size: 55px;
     text-align: center;
     display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 
-p {
-    text-align: center;
-    display: flex;
-}
+.title-wrap p[
+    
+]
 
 .contents-left p {
     display: flex;
     justify-content: flex-start;
-    margin-left: 20px;
+    flex-direction:row ;
 }
-
 
 .main-visual img {
-    width: 400px;
+    width: 350px;
     text-align: center;
     margin: 0 auto;
+    display: block;
 }
-
 
 .contents-right p {
     flex-direction: column;
@@ -42,3 +42,4 @@ p {
     justify-content: flex-start;
     margin-left: 700px;
 }
+
