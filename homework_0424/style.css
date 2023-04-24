@@ -27,6 +27,17 @@ header {
     color: dimgray;
 }
 
+.maru {
+    width: 72px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 28px;
+    color: orange;
+    border: solid 1px;
+}
+
 .contents-left h2 {
     font-size: 30px;
 }
@@ -39,6 +50,7 @@ header {
 
 .main-visual {
     display: flex;
+    align-items: center;
 }
 
 .main-visual img {
