@@ -19,14 +19,26 @@ header {
     font-weight: bold;
 }
 
-.title-wrap p[
-    
-]
+.title-wrap p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: dimgray;
+}
+
+.contents-left h2 {
+    font-size: 30px;
+}
 
 .contents-left p {
     display: flex;
     justify-content: flex-start;
-    flex-direction:row ;
+    flex-direction: row;
+}
+
+.main-visual {
+    display: flex;
 }
 
 .main-visual img {
@@ -36,10 +48,41 @@ header {
     display: block;
 }
 
-.contents-right p {
+.contents-right h3 {
+    font-size: 30px;
+}
+
+.contents-right {
     flex-direction: column;
     display: flex;
     justify-content: flex-start;
-    margin-left: 700px;
+    margin-left: 1000px;
 }
 
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: lightslategrey;
+}
+
+footer p {
+    color: white;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .header-left img {
+        width: 100px;
+    }
+
+    .contents-right {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0px;
+    }
+
+
+}
+
+けさない
