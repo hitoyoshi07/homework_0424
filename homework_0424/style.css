@@ -48,6 +48,17 @@ header {
     flex-direction: row;
 }
 
+.kounyuu{
+    width: 72px;
+    border-radius: 20px;
+    background-color: rgb(57, 100, 240);
+    text-align: center;
+    padding: 10px 10px;
+    margin: 28px;
+    color: white;
+    border: solid 1px;
+}
+
 .main-visual {
     display: flex;
     align-items: center;
@@ -90,6 +101,20 @@ footer p {
     .contents-right {
         display: flex;
         justify-content: flex-start;
+    }
+
+    .title-wrap h1 {
+        font-size: 30px;
+    }
+    
+    .title-wrap p {
+ 
+        font-size: 20px;
+        
+    }
+    .main-visual {
+        flex-direction: column;
+        
     }
 
 
